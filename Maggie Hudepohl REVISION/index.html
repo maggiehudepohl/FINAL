@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Adoption Centers in Cincinnati, OH</title>
+    <style>
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dog Adoption Centers in Cincinnati!</h1>
+
+
+        <div class="navbar">
+            <a href="home.html">Home</a>
+            <a href="index.html">Adoption Centers</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="availabledogs.html">Available Dogs</a>
+            <a href="Contactus.html">Contact Us</a>
+            <a href="jquery.html">JQuery</a>
+        </div>
+    </header>
+
+    <section id="about-us">
+        <h2>About Dog Adoption in Cincinnati</h2>
+        <p>Cincinnati is home to many wonderful <strong>dog adoption centers</strong> where you can find your next furry friend. These centers offer homes for many dogs who are looking for a loving home. Whether you’re searching for a puppy, small or large, young or old, you'll find many options here. Explore the adoption centers listed below and visit their websites for more information.</p>
+        <div class="image-container center-align">
+            <div>
+                <img src="https://images.unsplash.com/photo-1597330223703-9b11c4dba2bd?q=80&w=1588&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Lets Find Goose A Forever Home!" class="circle responsive-img">
+            </div>
+    </section>
+
+    <section id="available-dogs">
+        <h3>List of Adoption Centers</h3>
+        <ul>
+            <li><a href="https://www.spcacincinnati.org/" target="_blank"><strong>SPCA Cincinnati</strong></a> - A shelter that offers a wide range of dog breeds for adoption.</li>
+            <li><a href="https://www.ohioalleycat.org/" target="_blank"><strong>Ohio Alleycat Resource</strong></a> - While primarily a cat rescue, they occasionally have dogs for adoption too.</li>
+            <li><a href="https://www.animalrescuefundcincinnati.org/" target="_blank"><strong>Animal Rescue Fund Cincinnati</strong></a> - A non-profit rescue organization dedicated to saving dogs.</li>
+            <li><a href="https://www.adoptastray.com/" target="_blank"><strong>Adopt A Stray</strong></a> - A rescue that helps stray dogs find new homes.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Available Breeds and Locations</h3>
+        <table>
+            <tr>
+                <th>Adoption Center</th>
+                <th>Breed Examples</th>
+                <th>Location</th>
+            </tr>
+            <tr>
+                <td><a href="https://www.spcacincinnati.org" target="_blank">SPCA Cincinnati</a></td>
+                <td>Lab, Beagle, Boxer</td>
+                <td>3949 Colerain Ave, Cincinnati, OH 45223</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.ohioalleycat.org" target="_blank">Ohio Alleycat Resource</a></td>
+                <td>Mixed Breeds</td>
+                <td>5619 Orlando Pl, Cincinnati, OH 45227</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.arfpets.org" target="_blank">Animal Rescue Fund Cincinnati</a></td>
+                <td>Pitbull, Chihuahua</td>
+                <td>11309 Franklin St, Sharonville, OH 45241</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.adoptastray.org" target="_blank">Adopt A Stray</a></td>
+                <td>Golden Retriever, Poodle</td>
+                <td>Various Foster Homes</td>
+            </tr>
+        </table>
+    </section>
+    
+    <h3>Enter your phone number here to be entered into our monthly
+        dog care giveaway basket!</h3>
+        <br>
+        <input id="userInput"> <br><br>
+        <button onclick="myFunction()">Submit</button>
+        <p id="message"></p>
+        <script>function myFunction() {
+        let userInput = document.querySelector ("#userInput");
+        let message = document.querySelector ("#message");
+        message.innerHTML = "Thank your for entering our monthly drawing " + userInput.value;
+        }
+        </script>
+   
+    <h2>Help us decide our next pop-up adoption!!</h2>
+<script>
+function getOption() {
+var obj = document.getElementById("mySelect");
+document.getElementById("demo").innerHTML =
+obj.options[obj.selectedIndex].text;
+}
+</script>
+<form>
+Select the location that best serves you:
+<select id="mySelect">
+<option>Downtown Cincinnati</option>
+<option>Mason</option>
+<option>Hyde Park</option>
+<option>Anderson</option>
+</select>
+<br><br>
+<input type="button" onclick="getOption()" value="Submit!">
+</form>
+<p id="demo"></p>
+<p> <a href="https://greatergood.org/blog/misc/5-reasons-to-adopt-not-shop?utm_source=google&utm_medium=cpc&utm_term=09272024&utm_content=&utm_campaign=general-cultivation-fy25&utm_source=google&utm_medium=cpc&utm_campaign=pet&utm_content=MiscBlogsPet&utm_term=dog%20adoption&utm_campaign=Misc+Blogs+-+Planet&utm_source=adwords&utm_medium=ppc&hsa_acc=2430908076&hsa_cam=13924236408&hsa_grp=157440147743&hsa_ad=710842246456&hsa_src=g&hsa_tgt=kwd-20899951&hsa_kw=dog%20adoption&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1">Adopt, Dont Shop</a> | </p>
+    <footer>
+        <p><em>Thank you for supporting dog adoption in Cincinnati!</em></p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</body>
+</html>
+</html>

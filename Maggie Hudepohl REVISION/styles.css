@@ -1,0 +1,210 @@
+/* General styles */
+
+/* Navigation Bar Container */
+.navbar {
+    background-color: #1E3A5F; /* Blue background */
+    overflow: hidden;
+ }
+ 
+ /* Navigation Links */
+ .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+ }
+ 
+ /* Change color on hover */
+ .navbar a:hover {
+    background-color: #ddd;
+    color: #2C6E91; /* Blue hover color */
+ }
+ 
+ /* Active/current link */
+ .navbar a.active {
+    background-color: #2C6E91; /* Blue active link */
+    color: white;
+ }
+ 
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F9; /* Light background */
+    color: #000080; /* Navy blue text for better readability */
+ }
+ 
+ /* Title */
+ title {
+    color: #2C6E91; /* Blue title */
+ }
+ 
+ /* Header */
+ header {
+    background-color: #1E3A5F; /* Dark blue background */
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: 2em;
+ }
+ 
+ /* Sub-Headers (H2) */
+ h2 {
+    color: #2C6E91; /* Blue sub-header */
+    margin-top: 1em;
+ }
+ 
+ /* Paragraphs */
+ p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+    color: #000080; /* Navy blue text */
+ }
+ 
+ /* Bold, Italic, Underline */
+ strong {
+    font-weight: bold;
+    color: #000080; /* Navy blue text */
+ }
+ 
+ em {
+    font-style: italic;
+    color: #000080; /* Navy blue text */
+ }
+ 
+ u {
+    text-decoration: underline;
+    color: #000080; /* Navy blue text */
+ }
+ 
+ /* List - bullet */
+ ul {
+    list-style-type: disc;
+    padding-left: 1.5em;
+    color: #000080; /* Navy blue text */
+ }
+ 
+ li {
+    margin-bottom: 0.5em;
+    color: #000080; /* Navy blue text */
+ }
+ 
+ /* List - number */
+ ol {
+    list-style-type: decimal;
+    padding-left: 1.5em;
+    color: #000080; /* Navy blue text */
+ }
+ 
+ li {
+    margin-bottom: 0.5em;
+    color: #000080; /* Navy blue text */
+ }
+ 
+ /* Footer */
+ footer {
+    background-color: #1E3A5F; /* Dark blue */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+ }
+ 
+ /* Table */
+ table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+ }
+ 
+ th, td {
+    border: 1px solid #000080; /* Navy blue border for table */
+    padding: 8px;
+    text-align: left;
+    color: #000080; /* Navy blue text in table */
+ }
+ 
+ th {
+    background-color: #D4E5F3; /* Light blue background for table header */
+    color: #000080; /* Navy blue text in table header */
+ }
+ 
+ td {
+    background-color: #F9FAFC; /* Light blue for table data */
+    color: #000080; /* Navy blue text in table data */
+ }
+ 
+ /* Flexbox layout */
+ .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+ }
+ 
+ .main-content {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 1em 0;
+ }
+ 
+ footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+ }
+ 
+ /* Sections */
+ section {
+    flex: 3;
+    padding: 1em;
+    background-color: #E8F0F2; /* Light blue for section background */
+    margin-right: 1em;
+ }
+ 
+ aside {
+    flex: 1;
+    background-color: #FFEFDA; /* Light pastel background for aside */
+    padding: 1em;
+    margin-left: 1em;
+ }
+ 
+ .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #F4F4F9; /* Light background */
+ }
+ 
+ /* Responsive Image */
+ .responsive {
+    max-width: 100%;
+    height: auto;
+ }
+ 
+ /* Bordered Image */
+ .bordered {
+    border: 2px solid #2C6E91; /* Blue border */
+    padding: 5px;
+ }
+ 
+ /* Rounded Corners Image */
+ .rounded {
+    border-radius: 15px;
+ }
+ 
+ /* Shadowed Image */
+ .shadowed {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ 
+ /* Adding some common styles to all images for consistency */
+ .image-container img {
+    margin: 5px;
+    width: 200px; /* You can adjust the width as per your requirement */
+ }
